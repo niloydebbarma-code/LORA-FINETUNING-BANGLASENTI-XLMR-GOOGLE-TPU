@@ -50,15 +50,23 @@ Interactive W&B reports provide detailed training and evaluation visualizations 
 
 ### BanglaSenti XLM-RoBERTa Training: Baseline vs LoRA
 
-- [BanglaSenti XLM-RoBERTa Training: Baseline vs LoRA](https://wandb.ai/niloydebbarma-ai-youth-alliance/bangla-lora-bn-tpu/reports/BanglaSenti-XLM-RoBERTa-Training-Baseline-vs-LoRA-q6hb0von)
+- [BanglaSenti XLM-RoBERTa Training: Baseline vs LoRA](https://wandb.ai/niloydebbarma-ai-youth-alliance/bangla-lora-bn-tpu/reports/BanglaSenti-XLM-RoBERTa-Training-Baseline-vs-LoRA--VmlldzoxMzQ5MjE2OA)
+<img width="1207" height="785" alt="image" src="https://github.com/user-attachments/assets/723b6018-0f92-453a-b9dd-4e75b6a079b9" />
+<img width="1055" height="850" alt="image" src="https://github.com/user-attachments/assets/c2e86774-9cfa-403c-8296-7c6a874ef690" />
 
-<iframe src="https://api.wandb.ai/links/niloydebbarma-ai-youth-alliance/q6hb0von" style="border:none;height:1024px;width:100%"></iframe>
+<img width="1187" height="759" alt="image" src="https://github.com/user-attachments/assets/0fb08078-ebbc-4391-9635-8863ece067e9" />
+<img width="1031" height="435" alt="image" src="https://github.com/user-attachments/assets/b2d0011d-cdcb-4907-8f3a-6c34804c929a" />
+
+
+
 
 ### BanglaSenti XLM-RoBERTa Evaluation: Baseline vs LoRA
 
-- [BanglaSenti XLM-RoBERTa Evaluation: Baseline vs LoRA](https://wandb.ai/niloydebbarma-ai-youth-alliance/bangla-lora-bn-tpu/reports/BanglaSenti-XLM-RoBERTa-Evaluation-Baseline-vs-LoRA-fpjt1prn)
+- [BanglaSenti XLM-RoBERTa Evaluation: Baseline vs LoRA](https://wandb.ai/niloydebbarma-ai-youth-alliance/eval-bangla-lora-bn-tpu/reports/BanglaSenti-XLM-RoBERTa-Evaluation-Baseline-vs-LoRA--VmlldzoxMzQ5MTkxOA)
+<img width="1129" height="353" alt="image" src="https://github.com/user-attachments/assets/c82f129a-3b3e-4879-bf4a-c330c69fb985" />
 
-<iframe src="https://api.wandb.ai/links/niloydebbarma-ai-youth-alliance/fpjt1prn" style="border:none;height:1024px;width:100%"></iframe>
+<img width="1468" height="819" alt="image" src="https://github.com/user-attachments/assets/842f176f-a1a7-43fa-ba5e-a8c9b03e006c" />
+
 
 
 ## Summary of Findings
