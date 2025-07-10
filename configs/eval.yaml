@@ -1,0 +1,35 @@
+# Evaluation configuration for BanglaSenti LoRA fine-tuning
+model_name: "FacebookAI/xlm-roberta-base"
+
+# Paths for during evaluation checkpoints
+base_model_path_during: "checkpoints/banglasenti-lora-xlmr/lora_xlmr_weights.pt"
+adapter_dir_during: "checkpoints/banglasenti-lora-xlmr/lora_adapter_weights"
+adapter_weight_file_during: "checkpoints/banglasenti-lora-xlmr/lora_adapter_state_dict.pt"
+tokenizer_path_during: "checkpoints/banglasenti-lora-xlmr/lora_xlmr_tokenizer"
+
+
+# Paths for final evaluation checkpoints
+base_model_path_final: "checkpoints/banglasenti-lora-xlmr/final_state/final_lora_xlmr_weights.pt"
+adapter_dir_final: "checkpoints/banglasenti-lora-xlmr/final_state/final_lora_adapter_weights"
+adapter_weight_file_final: "checkpoints/banglasenti-lora-xlmr/final_state/final_lora_adapter_state_dict.pt"
+tokenizer_path_final: "checkpoints/banglasenti-lora-xlmr/final_state/final_tokenizer"
+
+lora:
+  r: 4
+  alpha: 8
+  dropout: 0.1
+  target_modules: ["query", "value"]
+  bias: "none"
+  task_type: "SEQ_CLS"
+
+dataset:
+  main: "data/test.csv"
+metrics:
+  - accuracy
+  - f1
+batch_size: 64
+max_length: 256
+
+# WandB configuration
+wandb_project: "eval-bangla-lora-bn-tpu"
+wandb: true

@@ -1,0 +1,7 @@
+# Ignore Weights & Biases logs and cache
+wandb/
+.wandb*
+
+# Ignore experiment checkpoints and logs
+checkpoints/
+logs/

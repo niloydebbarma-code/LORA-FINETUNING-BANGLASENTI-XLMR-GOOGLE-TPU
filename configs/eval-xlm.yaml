@@ -1,0 +1,27 @@
+# Baseline XLM-RoBERTa Evaluation Config (No LoRA)
+
+
+model_name: "FacebookAI/xlm-roberta-base"
+
+# Paths for during evaluation checkpoints
+base_model_path_during: checkpoints/banglasenti-xlmr/lora_xlmr_weights.pt
+config_path_during: checkpoints/banglasenti-xlmr/config.json
+tokenizer_path_during: checkpoints/banglasenti-xlmr/xlmr_tokenizer
+
+# Paths for final evaluation checkpoints
+
+base_model_path_final: checkpoints/banglasenti-xlmr/final_state/final_xlmr_weights.pt
+config_path_final: checkpoints/banglasenti-xlmr/final_state/config.json
+tokenizer_path_final: checkpoints/banglasenti-xlmr/final_state/final_tokenizer
+
+dataset:
+  main: "data/test.csv"
+metrics:
+  - accuracy
+  - f1
+batch_size: 64
+max_length: 256
+
+# WandB configuration
+wandb_project: "eval-bangla-lora-bn-tpu"
+wandb: true

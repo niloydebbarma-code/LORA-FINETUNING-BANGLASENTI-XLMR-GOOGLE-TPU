@@ -1,0 +1,27 @@
+# Training configuration for LoRA fine-tuning on BanglaSenti with XLM-RoBERTa-Base
+seed: 42
+model_name: "FacebookAI/xlm-roberta-base"
+lora:
+  r: 4
+  alpha: 8
+  dropout: 0.1
+  target_modules: ["query", "value"]
+  bias: "none"
+  task_type: "SEQ_CLS"
+
+train:
+  batch_size: 64
+  grad_accum_steps: 1
+  epochs: 10
+  lr: 5e-5
+  max_length: 256
+  save_steps: 50
+  log_steps: 10
+  checkpoint_dir: "checkpoints/"
+  resume: true
+  wandb: true
+  wandb_project: "bangla-lora-bn-tpu"
+dataset:
+  name: "BanglaSenti"
+  train_path: "data/train.csv"   # Path to training CSV
+  val_path: "data/val.csv"       # Path to validation CSV

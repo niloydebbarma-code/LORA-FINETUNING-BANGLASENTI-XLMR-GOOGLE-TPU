@@ -1,0 +1,26 @@
+# Core Python and ML dependencies for BanglaSenti LoRA XLM-R project
+# Data science and ML
+numpy
+pandas
+scikit-learn
+# Experiment tracking
+wandb
+# Config and logging
+omegaconf
+loguru
+rich
+# PyTorch/XLA for TPU
+# Use torch_xla[tpu] for TPU support, torch>=2.7.0 for latest features
+torch>=2.7.0
+torchvision
+torch_xla[tpu]>=2.7.0
+# HuggingFace ecosystem for transformers and datasets
+transformers>=4.40.0
+datasets>=2.19.0
+tokenizers
+peft>=0.10.0
+accelerate
+# CLI utilities
+click
+# For reproducibility
+filelock
