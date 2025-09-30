@@ -25,7 +25,7 @@
 
 ## W&B Experiment Reports
 
-- [BanglaSenti XLM-RoBERTa Training: Baseline vs LoRA (W&B Report)](https://wandb.ai/niloydebbarma-ai-youth-alliance/eval-bangla-lora-bn-tpu/reports/BanglaSenti-XLM-RoBERTa-Evaluation-Baseline-vs-LoRA--VmlldzoxMzQ5MTkxOA)
+- [BanglaSenti XLM-RoBERTa Training: Baseline vs LoRA (W&B Report)](https://wandb.ai/niloydebbarma-ai-youth-alliance/bangla-lora-bn-tpu/reports/BanglaSenti-XLM-RoBERTa-Training-Baseline-vs-LoRA--VmlldzoxMzQ5MjE2OA)
 - [BanglaSenti XLM-RoBERTa Evaluation: Baseline vs LoRA (W&B Report)](https://wandb.ai/niloydebbarma-ai-youth-alliance/eval-bangla-lora-bn-tpu/reports/BanglaSenti-XLM-RoBERTa-Evaluation-Baseline-vs-LoRA--VmlldzoxMzQ5MTkxOA)
 
 ---
